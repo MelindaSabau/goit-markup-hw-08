@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="../css/main.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>WebStudio</title>
+  </head>
+  <body>
+    <!--Menu section-->
+
+    <header class="page-header">
+      <div class="page-header__inner">
+        <a class="logo link" href="index.html">
+          <span class="logo__first-section">Web</span>Studio</a
+        >
+
+        <ul class="menu unstyled-list">
+          <li class="menu__item">
+            <a class="menu__link link link--active" href="index.html">Studio</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="#">Contacts</a>
+          </li>
+        </ul>
+
+        <ul class="menu contact__list unstyled-list">
+          <li class="contact__item">
+            <a class="contact__link link" href="mailto:info@devstudio.com"
+              ><svg class="contact-icon" width="16" height="12">
+                <use href="images/icons.svg#icon-envelope"></use></svg>
+          </li>
+          <li class="contact__item">
+            <a class="contact__link link" href="tel:+12127724150"
+              ><svg class="contact-icon" width="10" height="16">
+                <use href="images/icons.svg#icon-smartphone"></use></svg>+1 212-772-4150</a>
+          </li>
+        </ul>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!--Portfolio section-->
+    <main class="container">
+      <ul class="unstyled-btns">
+        <li><button class="btn" type="button">All</button></li>
+        <li><button class="btn" type="button">Web-sites</button></li>
+        <li><button class="btn" type="button">App</button></li>
+        <li><button class="btn" type="button">Design</button></li>
+        <li><button class="btn" type="button">Marketing</button></li>
+      </ul>
+      <div class="container">
+        <ul class="product__list">
+          <li class="product__item">
+            <div class="over-card">
+              <div class="overlay">
+                <p class="opis">
+                  Technoduck is a state-of-the-art coronavirus distribution
+                  platform. Companies use this platform for digital espionage
+                  and attacks on competitors' secure servers.
+                </p>
+              </div>
+              <img
+                class="product__img"
+                src="./images/gallery/img1.jpg"
+                width="370"
+                alt="on the screen of a laptop is opened a web-site"
+              />
+            </div>
+            <div class="card">
+              <h4 class="product__name">Technoduck</h4>
+              <p class="product__type">Web-site</p>
+            </div>
+          </li>
+
+          <li class="product__item">
+            <div class="over-card">
+              <div class="overlay">
+                <p class="opis"></p>
+              </div>
+              <img
+                class="product__img"
+                src="./images/gallery/img2.jpg"
+                width="370"
+                alt="two basketball players are fighting for the basketball"
+              />
+            </div>
+            <div class="card">
+              <h4 class="product__name">Poster New Orlean vs Golden Star</h4>
+              <p class="product__type">Design</p>
+            </div>
+          </li>
+
+          <li class="product__item">
+            <div class="over-card">
+              <div class="overlay">
+                <p class="opis"></p>
+              </div>
+              <img
+                class="product__img"
+                src="./images/gallery/img3.jpg"
+                width="370"
+                alt="The Seafood Restaurant Est. 2001 and text and a fish"
+              />
+            </div>
+            <div class="card">
+              <h4 class="product__name">Seafood Restaurant</h4>
+              <p class="product__type">Apps</p>
+            </div>
+          </li>
+
+          <li class="product__item">
+            <div class="over-card">
+              <div class="overlay">
+                <p class="opis"></p>
+              </div>
+              <img
+                class="product__img"
+                src="./images/gallery/img4.jpg"
+                width="370"
+                alt="Headphones"
+              />
+            </div>
+            <div class="card">
+              <h4 class="product__name">Project Prime</h4>
+              <p class="product__type">Marketing</p>
+            </div>
+          </li>
+
+          <li class="product__item">
+            <div class="over-card">
+              <div class="overlay">
+                <p class="opis"></p>
+              </div>
+              <img
+                class="product__img"
+                src="./images/gallery/img5.jpg"
+                width="370"
+                alt="two boxes"
+              />
+            </div>
+            <div class="card">
+              <h4 class="product__name">Project Boxes</h4>
+              <p class="product__type">Apps</p>
+            </div>
+          </li>
+
+          <li class="product__item">
+            <div class="over-card">
+              <div class="overlay">
+                <p class="opis"></p>
+              </div>
+              <img
+                class="product__img"
+                src="./images/gallery/img6.jpg"
+                width="370"
+                alt="a web-site on a monitor"
+              />
+            </div>
+            <div class="card">
+              <h4 class="product__name">Inspiration has no Borders</h4>
+              <p class="product__type">Web-site</p>
+            </div>
+          </li>
+
+          <li class="product__item">
+            <div class="over-card">
+              <div class="overlay">
+                <p class="opis"></p>
+              </div>
+              <img
+                class="product__img"
+                src="./images/gallery/img7.jpg"
+                width="370"
+                alt="an open book"
+              />
+            </div>
+            <div class="card">
+              <h4 class="product__name">Limited Edition</h4>
+              <p class="product__type">Design</p>
+            </div>
+          </li>
+
+          <li class="product__item">
+            <div class="over-card">
+              <div class="overlay">
+                <p class="opis"></p>
+              </div>
+              <img
+                class="product__img"
+                src="./images/gallery/img8.jpg"
+                width="370"
+                alt="a label that says labeltag"
+              />
+            </div>
+            <div class="card">
+              <h4 class="product__name">Project LAB</h4>
+              <p class="product__type">Marketing</p>
+            </div>
+          </li>
+
+          <li class="product__item">
+            <div class="over-card">
+              <div class="overlay">
+                <p class="opis"></p>
+              </div>
+              <img
+                class="product__img"
+                src="./images/gallery/img9.jpg"
+                width="370px"
+                alt="two mani write to a laptop"
+              />
+            </div>
+            <div class="card">
+              <h4 class="product__name">Growing Business</h4>
+              <p class="product__type">Apps</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <!--Footer section-->
+
+    <footer class="container">
+      <div class="page-footer">
+        <div class="contact">
+          <address class="contact">
+            <ul class="unstyled-list">
+              <li class="contact__item">
+                <a class="logo link" href="index.html"
+                  ><span class="logo__first-section">Web</span
+                  ><span class="logo_last-section">Studio</span></a
+                >
+              </li>
+              <li class="contact__item">
+                <a class="link adress" href="#">695 Park Ave, NY 10065, USA</a>
+              </li>
+              <li class="contact__item">
+                <a class="link mail" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="contact__item">
+                <a class="link tel" href="tel:+12127724150">+1 212-772-4150</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="social-media">
+          <h3 class="social-title">FIND US ON</h3>
+          <ul class="unstyled-list social-list dots">
+            <li>
+              <a href="#" target="_blank" class="footer-social-link">
+                <svg class="footer-icon">
+                  <use href="images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="footer-social-link">
+                <svg class="footer-icon">
+                  <use href="images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="footer-social-link">
+                <svg class="footer-icon">
+                  <use href="images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="footer-social-link">
+                <svg class="footer-icon">
+                  <use href="images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <form class="subscribe">
+            <label>
+              <h3 class="social-title">SUBSCRIBE TO THE NEWSLETTER</h3>
+              <input
+                class="footer-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit " class="request-btn">
+              Subscribe<svg viewBox="-152 0 500 70" class="subscribe-icon">
+                <use href="images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu unstyled-list">
+        <li class="">
+          <a class="link link--active" href="index.html">Studio</a>
+        </li>
+        <li class="">
+          <a class="link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="">
+          <a class="link" href="#">Contacts</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-menu unstyled-list menu-contacts">
+        <li class="contact__item contact-tel">
+          <a class="contact__link link" href="tel:+12127724150"
+            ><svg class="contact-icon" width="10" height="16">
+              <use href="images/icons.svg#icon-smartphone"></use></svg
+            >+1 212-772-4150</a
+          >
+        </li>
+        <li class="contact__item contact-mail">
+          <a class="contact__link link" href="mailto:info@devstudio.com"
+            ><svg class="contact-icon" width="16" height="12">
+              <use href="images/icons.svg#icon-envelope"></use></svg
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="horizontal-list unstyled-list">
+        <li><a href="" class="link"></a>Instagram</li>
+        <li><a href="" class="link"></a><span class="line">|</span>Twitter</li>
+        <li><a href="" class="link"></a><span class="line">|</span>Facebook</li>
+        <li><a href="" class="link"></a><span class="line">|</span>LinkedIn</li>
+      </ul>
+    </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
+
+    <script src="./js/modal.js"></script>
+  </body>
+</html>

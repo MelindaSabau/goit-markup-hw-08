@@ -1,0 +1,24 @@
+.page-header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #ececec;
+  &__inner {
+    flex: 0 0 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.logo__first-section {
+  color: var(--brand-color);
+}

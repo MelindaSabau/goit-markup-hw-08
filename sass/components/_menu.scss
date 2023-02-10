@@ -1,0 +1,11 @@
+.menu {
+  display: none;
+  &__link {
+  }
+}
+
+@media (min-width: 768px) {
+  .menu {
+    display: flex;
+  }
+}
