@@ -1,0 +1,40 @@
+.services {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid__shadow {
+    display: flex;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    background-color: rgba(47, 48, 58, 0.8);
+    position: absolute;
+    height: 70px;
+    width: 370px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 224px;
+  }
+  .grid__heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+    margin-top: 94px;
+  }
+}

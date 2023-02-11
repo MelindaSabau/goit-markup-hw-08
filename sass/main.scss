@@ -2,6 +2,11 @@
 @import "../sass/components/mobile-menu";
 @import "../sass/components/menu";
 @import "../sass/components/header";
+@import "../sass/components/hero";
+@import "../sass/components/modal";
+@import "../sass/components/services";
+@import "../sass/components/about";
+@import "../sass/components/team";
 
 * {
   margin-block-start: 0;
@@ -41,13 +46,10 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-color);
-  display: inline-flex;
-  position: relative;
   width: 200px;
   height: 50px;
 
