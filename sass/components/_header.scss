@@ -3,12 +3,11 @@
   justify-content: center;
   border-bottom: 1px solid #ececec;
   &__inner {
-    flex: 0 0 100%;
+    flex-basis: 1200px;
     padding: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex: 0 1 1200px;
   }
 }
 .logo {

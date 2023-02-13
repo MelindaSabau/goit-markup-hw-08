@@ -1,0 +1,146 @@
+.page-footer {
+  background: #2f303a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.logo_last-section {
+  color: var(--white-color);
+}
+.adress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+  color: var(--white-color);
+}
+.mail,
+.tel {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.contact__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.social-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  text-decoration: 1px solid #000000;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.footer-icon {
+  fill: var(--white-color);
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+}
+
+.dots {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.footer-social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    background-color: var(--brand-color);
+  }
+}
+
+.footer-input {
+  width: 450px;
+  height: 50px;
+  background-color: #2f303a;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.request-btn {
+  position: relative;
+}
+.subscribe-icon {
+  position: absolute;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .page-footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-basis: calc(100% / 2);
+  }
+  .contact {
+    margin-right: 80px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .page-footer {
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: center;
+    margin: 0 auto;
+    flex-basis: 33%;
+  }
+  .footer-input {
+    width: 358px;
+    margin-left: 93px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 30px;
+  }
+  .subscribe .request-btn {
+    margin-bottom: -62px;
+  }
+/*
+  .adress {
+    text-align: left;
+  }
+  .social-title {
+  }
+}
+*/
