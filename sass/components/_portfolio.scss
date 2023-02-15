@@ -1,0 +1,121 @@
+.btn {
+  font-family: "Roboto";
+  font-style: normal;
+  color: var(--black-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  padding: 6px 22px;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border-style: none;
+  cursor: pointer;
+  &:hover {
+    color: var(--white-color);
+    background-color: var(--brand-color);
+    &:hover,
+    :focus {
+      box-shadow: 2px 8px 7px 0px rgba(117, 117, 117, 0.53);
+      -webkit-box-shadow: 2px 8px 7px 0px rgba(117, 117, 117, 0.53);
+      -moz-box-shadow: 2px 8px 7px 0px rgba(117, 117, 117, 0.53);
+    }
+  }
+}
+.card {
+  border: 1px solid #ececec;
+  width: 370px;
+  height: 107px;
+  margin-bottom: 30px;
+  border-top-style: none;
+  padding-top: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.product__item {
+  width: 370px;
+  height: 404px;
+  margin-top: 30px;
+  &:hover {
+    box-shadow: 5px 5px 4px 2px rgba(117, 117, 117, 0.53);
+    box-shadow: 2px 8px 9px 3px rgba(117, 117, 117, 0.53);
+    -webkit-box-shadow: 2px 8px 9px 3px rgba(117, 117, 117, 0.53);
+    -moz-box-shadow: 2px 8px 9px 3px rgba(117, 117, 117, 0.53);
+  }
+}
+.product__img {
+  margin-bottom: 0px;
+}
+
+.product__name {
+  font-family: "Roboto";
+  font-style: normal;
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  margin-left: 24px;
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
+.product__type {
+  font-family: "Roboto";
+  font-style: normal;
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  margin-left: 24px;
+  margin-top: 4px;
+}
+.product__list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+
+.overlay {
+  background-color: rgba(33, 150, 243, 0.9);
+  position: absolute;
+  height: 294px;
+  width: 370px;
+  transform: translateY(300px);
+  transition: transform 250ms linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &hover {
+    transform: translateY(0);
+  }
+}
+.opis {
+  width: 322px;
+  height: 140px;
+  left: 239px;
+  top: 325px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-align: left;
+}
+.product__item:hover .overlay {
+  transform: translateY(0);
+}
+
+.over-card {
+  position: relative;
+  overflow: hidden;
+}

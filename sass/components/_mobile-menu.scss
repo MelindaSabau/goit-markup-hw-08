@@ -12,6 +12,7 @@
   border-radius: 50%;
   outline: none;
 }
+
 @media (min-width: 768px) {
   .menu-toggle {
     display: none;
@@ -83,7 +84,6 @@
   margin-top: auto;
   padding-bottom: 64px;
   font-weight: 500;
-
   line-height: 40px;
   letter-spacing: 0.02em;
 }
@@ -100,4 +100,7 @@
   width: 22px;
   color: rgba(33, 33, 33, 0.2);
   padding: 10px;
+}
+.contact-icon {
+  display: none;
 }

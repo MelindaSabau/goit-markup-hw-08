@@ -9,6 +9,7 @@
 @import "../sass/components/team";
 @import "../sass/components/customers";
 @import "../sass/components/footer";
+@import "../sass/components/portfolio";
 
 * {
   margin-block-start: 0;
@@ -29,6 +30,7 @@
 body {
   font-family: "Roboto", "Rakeway", sans-serif;
   margin: 0;
+  width: 100%;
 }
 .container {
   width: 1200px;

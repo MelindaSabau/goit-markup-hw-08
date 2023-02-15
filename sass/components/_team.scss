@@ -50,7 +50,7 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   img {
-    width: 450px;
+    width: 350px;
   }
   h4 {
     font-weight: 500;
@@ -69,6 +69,11 @@
     text-align: center;
     letter-spacing: 0.03em;
     padding: 10px;
+  }
+}
+@media screen and (min-width: 480px) {
+  img {
+    width: 450px;
   }
 }
 @media screen and (min-width: 768px) {
