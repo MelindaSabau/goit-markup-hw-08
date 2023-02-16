@@ -1,3 +1,19 @@
+.portfolio-section {
+  width: 100%;
+}
+/*.link--active {
+  display: none;
+}*/
+.unstyled-btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin-top: 51px;
+  max-width: 370px;
+  gap: 8px;
+  padding: 15px;
+}
 .btn {
   font-family: "Roboto";
   font-style: normal;
@@ -8,7 +24,7 @@
   text-align: center;
   padding: 6px 22px;
   letter-spacing: 0.03em;
-  background: #f5f4fa;
+  background: var(--background-color);
   border-radius: 4px;
   border-style: none;
   cursor: pointer;
@@ -45,7 +61,9 @@
   }
 }
 .product__img {
-  margin-bottom: 0px;
+  height: 294px;
+  width: 370px;
+  align-items: center;
 }
 
 .product__name {
@@ -74,12 +92,13 @@
 .product__list {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1200px;
-
+  max-width: 270px;
   justify-content: space-around;
+  align-items: center;
   list-style-type: none;
   margin-top: 50px;
   margin-bottom: 94px;
+  margin: 0 auto;
 }
 
 .overlay {
@@ -118,4 +137,91 @@
 .over-card {
   position: relative;
   overflow: hidden;
+}
+@media screen and (min-width: 480px) {
+  .card {
+    width: 450px;
+    height: 107px;
+  }
+  .product__img {
+    height: 294px;
+    width: 450px;
+  }
+  .product__item {
+    width: 450px;
+    height: 404px;
+  }
+
+  .overlay {
+    height: 294px;
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 354px;
+    height: 146px;
+  }
+  .product__img {
+    height: 294px;
+    width: 354px;
+  }
+  .product__item {
+    width: 354px;
+    height: 440px;
+  }
+
+  .overlay {
+    height: 294px;
+    width: 354px;
+  }
+  .product__list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1117px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-bottom: 94px;
+
+    gap: 30px;
+  }
+  .unstyled-btns {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    max-width: 556px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    margin-top: 94px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .card {
+    width: 370px;
+    height: 107px;
+  }
+  .product__img {
+    height: 294px;
+    width: 370px;
+  }
+  .product__item {
+    width: 370px;
+    height: 404px;
+  }
+
+  .overlay {
+    height: 294px;
+    width: 370px;
+  }
+  .product__list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+  }
 }

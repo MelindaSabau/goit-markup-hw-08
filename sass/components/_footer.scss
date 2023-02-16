@@ -7,6 +7,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
   width: 100%;
+  margin-top: 60px;
 }
 .logo_last-section {
   color: var(--white-color);
@@ -114,7 +115,7 @@ form {
     flex-basis: calc(100% / 2);
   }
   .contact {
-    margin-right: 80px;
+    margin-right: 50px;
   }
 }
 
@@ -124,11 +125,14 @@ form {
     align-items: baseline;
     justify-content: center;
     margin: 0 auto;
-    flex-basis: 33%;
+    flex-basis: auto;
+  }
+  .contact__item {
+    align-items: start;
   }
   .footer-input {
     width: 358px;
-    margin-left: 93px;
+    margin-left: 50px;
   }
 
   form {

@@ -79,7 +79,7 @@
     </header>
 
     <!--Portfolio section-->
-    <main class="container">
+    <main class="portfolio-section">
       <ul class="unstyled-btns">
         <li><button class="btn" type="button">All</button></li>
         <li><button class="btn" type="button">Web-sites</button></li>
@@ -87,7 +87,7 @@
         <li><button class="btn" type="button">Design</button></li>
         <li><button class="btn" type="button">Marketing</button></li>
       </ul>
-      <div class="container">
+      <div class="">
         <ul class="product__list">
           <li class="product__item">
             <div class="over-card">
@@ -100,8 +100,11 @@
               </div>
               <img
                 class="product__img"
-                src="./images/gallery/img1.jpg"
-                width="370"
+                srcset="
+                  images/portfolio/portfolio-1-450.png 480w 1x, images/portfolio/portfolio-1-354.png 768w 1x, images/portfolio/portfolio-1-370.png 1200w 1x,
+                  images/portfolio/portfolio-1@2x.png  2x,
+                "
+                src="images/portfolio/portfolio-1-450.png"
                 alt="on the screen of a laptop is opened a web-site"
               />
             </div>
@@ -118,9 +121,12 @@
               </div>
               <img
                 class="product__img"
-                src="./images/gallery/img2.jpg"
-                width="370"
-                alt="two basketball players are fighting for the basketball"
+                srcset="
+                  images/portfolio/portfolio-2-450.jpg 480w 1x, images/portfolio/portfolio-2-354.jpg 768w 1x, images/portfolio/portfolio-2-370.jpg  1200w 1x,
+                  images/portfolio/portfolio-2@2x.jpg  2x
+                "
+                src="images/portfolio/portfolio-2-450.jpg"
+                alt="on the screen of a laptop is opened a web-site"
               />
             </div>
             <div class="card">
@@ -136,8 +142,11 @@
               </div>
               <img
                 class="product__img"
-                src="./images/gallery/img3.jpg"
-                width="370"
+                srcset="
+                   images/portfolio/portfolio-3-450.png 480w 1x, images/portfolio/portfolio-3-354.png 768w 1x, images/portfolio/portfolio-3-370.png 1200w 1x,
+                  images/portfolio/portfolio-3@2x.png  2x
+                "
+                src="images/portfolio/portfolio-3-450.png"
                 alt="The Seafood Restaurant Est. 2001 and text and a fish"
               />
             </div>
@@ -154,8 +163,11 @@
               </div>
               <img
                 class="product__img"
-                src="./images/gallery/img4.jpg"
-                width="370"
+                srcset="
+                   images/portfolio/portfolio-4-450.png 480w 1x, images/portfolio/portfolio-4-354.png 768w 1x, images/portfolio/portfolio-4-370.png 1200w 1x,
+                  images/portfolio/portfolio-4@2x.png  2x
+                "
+                src="images/portfolio/portfolio-4-450.png"
                 alt="Headphones"
               />
             </div>
@@ -172,8 +184,11 @@
               </div>
               <img
                 class="product__img"
-                src="./images/gallery/img5.jpg"
-                width="370"
+                srcset="
+                   images/portfolio/portfolio-5-450.png 480w 1x, images/portfolio/portfolio-5-354.png 768w 1x, images/portfolio/portfolio-5-370.png 1200w 1x,
+                  images/portfolio/portfolio-5@2x.png  2x
+                "
+                src="images/portfolio/portfolio-5-450.png"
                 alt="two boxes"
               />
             </div>
@@ -188,12 +203,13 @@
               <div class="overlay">
                 <p class="opis"></p>
               </div>
-              <img
-                class="product__img"
-                src="./images/gallery/img6.jpg"
-                width="370"
-                alt="a web-site on a monitor"
-              />
+              <img class="product__img" srcset="
+              images/portfolio/portfolio-6-450.png 480w 1x,
+              images/portfolio/portfolio-6-354.png 768w 1x,
+              images/portfolio/portfolio-6-370.png 1200w 1x,
+              images/portfolio/portfolio-6@2x.png 2x"
+              src="images/portfolio/portfolio-6-450.png"0" alt="a web-site on a
+              monitor" />
             </div>
             <div class="card">
               <h4 class="product__name">Inspiration has no Borders</h4>
@@ -208,8 +224,11 @@
               </div>
               <img
                 class="product__img"
-                src="./images/gallery/img7.jpg"
-                width="370"
+                srcset="
+                   images/portfolio/portfolio-7-450.png 480w 1x, images/portfolio/portfolio-7-354.png 768w 1x, images/portfolio/portfolio-7-370.png 1200w 1x,
+                  images/portfolio/portfolio-7@2x.png  2x
+                "
+                src="images/portfolio/portfolio-7-450.png"
                 alt="an open book"
               />
             </div>
@@ -226,8 +245,11 @@
               </div>
               <img
                 class="product__img"
-                src="./images/gallery/img8.jpg"
-                width="370"
+                srcset="
+                   images/portfolio/portfolio-8-450.png 480w 1x, images/portfolio/portfolio-8-354.png 768w 1x, images/portfolio/portfolio-8-370.png 1200w 1x,
+                  images/portfolio/portfolio-8@2x.png  2x
+                "
+                src="images/portfolio/portfolio-8-450.png"
                 alt="a label that says labeltag"
               />
             </div>
@@ -244,8 +266,11 @@
               </div>
               <img
                 class="product__img"
-                src="./images/gallery/img9.jpg"
-                width="370px"
+                srcset="
+                   images/portfolio/portfolio-9-450.png 480w 1x, images/portfolio/portfolio-9-354.png 768w 1x, images/portfolio/portfolio-9-370.png 1200w 1x,
+                  images/portfolio/portfolio-9@2x.png  2x
+                "
+                src="images/portfolio/portfolio-9-450.png"
                 alt="two mani write to a laptop"
               />
             </div>
@@ -358,7 +383,7 @@
 
       <ul class="mobile-menu unstyled-list">
         <li class="">
-          <a class="link link--active" href="index.html">Studio</a>
+          <a class="link" href="index.html">Studio</a>
         </li>
         <li class="">
           <a class="link" href="portfolio.html">Portfolio</a>
