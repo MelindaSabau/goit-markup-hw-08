@@ -7,7 +7,7 @@
   text-align: center;
   justify-content: center;
   max-width: 1600px;
-  background-image: url("../../images/gallery/hero-768.jpg");
+  background-image: url("../../images/hero/hero-768.jpg");
   height: 400px;
   background-size: cover;
   margin-bottom: 60px;
@@ -28,14 +28,14 @@ h1 {
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: url("../../images/gallery/hero-1200.jpg");
+    background-image: url("../../images/hero/hero-1200.jpg");
     background-size: cover;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: url("../../images/gallery/hero-1600.jpg");
+    background-image: url("../../images/hero/hero-1200.jpg");
     height: 600px;
     margin: 0 auto;
   }
